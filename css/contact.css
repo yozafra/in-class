@@ -1,0 +1,29 @@
+/*====section tags=======*/
+
+section{
+    margin-top:80%;
+    float:left;
+    width:25px;
+}
+
+
+/*=======contact form iframe====*/
+#contact-form-wrapper{
+    background-color:#6a5c7a;
+}
+/*#form1>#header{*/
+/*    visibility: hidden;*/
+/*}*/
+
+
+/*== Physical address===*/
+
+button{
+    border: none;
+    background-color: red;
+    padding: 25px;
+    color: red;
+    border-radius: 4px;
+    font-size:30%; 
+    
+}

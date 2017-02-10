@@ -1,0 +1,30 @@
+/*about hero section*/
+
+#about-hero{
+    height: 450px;
+    background-image: url("../img/lion1.jpg");
+    background-position: center;
+    background-size: cover; 
+    margin-top: 0%;
+}
+
+/*--columns section  ---*/
+.column{
+    float:left;
+    width:33%;
+}
+
+.column h3 {
+    text-align:center;
+    font-weight:600;
+}
+
+.column>p{
+    text-align:justify;
+    padding:8px;
+}
+
+#col-1 button{
+    background-color: #BE9640;
+    
+}

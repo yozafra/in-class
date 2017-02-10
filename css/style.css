@@ -1,0 +1,199 @@
+/*=========universals==============*/
+body {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+}
+
+.red-background{
+    background-color: #e40007;
+}
+
+.white-text {
+    color: #000;
+
+}
+.inline-block {
+    display:inline-block;
+}
+.pull-left {
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.half {
+    width: 50%;
+}
+a {
+    text-decoration: none;
+}
+.full{
+    width:100%
+}
+button {
+    border:none;
+    padding:15%;
+    border-radius: 4px;
+    font-size: 18px;
+}
+/*========Header=============*/
+header {
+    padding: 25px 20px;
+    background-color: #e40007;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+   /*float: left;*/
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin: 0px 0px;
+  
+}
+
+li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+span h2 {
+    inline-block: 50px
+}
+
+header>ul>li>a {
+    text-decoration:none;
+    color: #fff;
+
+}
+header>ul>li {
+    border-radius:50%;
+    background-color:#080505;
+    padding:25px;
+    
+    
+}
+
+/*========================hero section=====*/
+
+#hero {
+    width: 100%;
+    height: 150%;
+    background-image: url('../img/lion1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #fff; 
+    margin-top: 7%;
+}
+#hero>h1{
+    margin: 0;
+    color:#FFDE0A;
+    text-align:center;
+    position:relative;
+    top:42%;
+}
+
+/*===============aside section=====================*/
+aside {
+    width: 30%;
+    border-right-color:solid #fff;
+    background-color: #e66;
+}
+
+aside h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+#blog-links{
+    padding-left: 0;
+    
+}
+.blog-link {
+    Padding:5px 0;
+    text-align:center;
+    margin: 0;
+    
+}
+.blog-link>h5>a {
+    font-size: 18px
+}
+
+.blog-link:hover {
+    background-color:#FFDE0A;
+    
+}
+
+aside, main{
+    height: 425px;
+}
+
+
+/*=======main sction====================*/
+
+main{
+    width: 68%;
+    background-color:#ff33cc;
+    padding: 0 10px;
+}
+
+main>h2{
+    text-align:center;
+}
+
+main p a{
+    color: #53ffla;
+    font-size: 18px;
+}
+#main_content_paragraph{
+    display:inline-block;
+}
+
+#main-wrapper{
+    margin-bottom: 10px;
+    color: #d2cfec;
+}
+.paragraph-1{
+
+    Float: left;
+    text-align: left;
+
+}
+.red-box {
+    position: relative;
+    background: red;
+        height: 350px;
+}
+
+para-fool {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+        
+}
+/*=====footer section======*/
+
+footer{
+    height: 100px;
+    background-color: #53ffla ;
+    clear:both;
+    border-top: 4px solid #53ffla ;
+    
+    
+    
+}
+
+#Social-media-wraper {
+    margin:0 auto;
+}
+
+a .fa{
+    color: #fff;
+    text-align: center;
+}
+#coppyright {
+    color: #FFDE0A;
+    text-align: right;
+    
+}
